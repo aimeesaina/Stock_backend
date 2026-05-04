@@ -1,0 +1,14 @@
+{
+  "name": "stock_backend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npx supabase start",
+    "functions:serve": "npx supabase functions serve"
+  },
+  "description": "Backend workspace for Supabase functions and migrations",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.1"
+  }
+}
